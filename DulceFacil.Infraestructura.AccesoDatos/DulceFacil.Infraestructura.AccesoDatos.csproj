@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DataEFCore\" />
-    <Folder Include="Repositorio\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +17,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DulceFacil.Dominio.Modelo\DulceFacil.Dominio.Modelo.csproj" />
   </ItemGroup>
 
 </Project>
